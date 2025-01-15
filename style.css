@@ -1,0 +1,126 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('assets/images/gandalf.gif'); 
+  color: #f5f5f5; 
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.moving-image {
+  position: fixed; 
+  top: 50%; 
+  left: -100%;
+  width: 800px; /* Adjust width */
+  height: 330px; /* Adjust height */
+  background-image: url('assets/images/gandalf-semfundo.gif'); /* Replace with your moving image path */
+  background-size: contain; /* Ensure the image fits */
+  background-repeat: no-repeat; /* No repeat for the image itself */
+  z-index: -1; /* Place behind all content */
+  animation: move-left-to-right 10s linear infinite; /* Animation */
+}
+
+/* Keyframes for moving the image */
+@keyframes move-left-to-right {
+  from {
+    transform: translateX(0); /* Start off-screen left */
+  }
+  to {
+    transform: translateX(200vw); /* Move to the far right */
+  }
+}
+
+/* Welcome text */
+.welcome-text {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: rgb(255, 100, 0); /* Accent color */
+}
+
+/* Main content styles */
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 900px;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8); /* Slightly transparent black box */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bio {
+  text-align: left;
+  color: white;
+}
+
+.social-links-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-links-grid .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgb(255, 100, 0); /* Accent color */
+  color: rgb(255, 100, 0);
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links-grid .circle:hover {
+  background-color: rgb(255, 100, 0); /* Accent on hover */
+  color: black;
+}
+
+/* Circles at the bottom */
+.circles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.circles .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgb(255, 100, 0); /* Accent color */
+  color: rgb(255, 100, 0);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.circles .circle:hover {
+  background-color: rgb(255, 100, 0); /* Accent on hover */
+  color: black;
+}
