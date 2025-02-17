@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarks do André</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation_box">
+            <a class="navigation_link" href="index.html">Home</a>
+            <a class="navigation_link" href="bookmarks.html">Bookmarks</a>
+            <a class="navigation_link" href="future.html"> Projeto Futuro</a>
+        </nav>
+    </header>
+    
+    <main class="container_main_bookmarks">
+        <section class="section_2">
+            <h1 class="section_2_title"> Bookmarks por categorias e subcategorias </h1>
+            <div class="section_2_controls">
+                <input type="text" class="section_2_search_box" placeholder="Pesquisar em todos os bookmarks...">
+                <select class="section_2_category_dropdown" id="categorySelect">
+                    <option value="all">Todas as categorias</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="section_categories_container" id="categoriesContainer"></section>
+    </main>
+
+    <footer class="footer">
+        <p>Feito por André de Campos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

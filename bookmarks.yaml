@@ -1,0 +1,154 @@
+categories:
+  - name: Mídia
+    lists:
+      - name: Vídeo & Música
+        items:
+          - title: YouTube
+            url: https://youtube.com
+            tags: [streaming, vídeo]
+          - title: YouTube Music
+            url: https://music.youtube.com
+            tags: [streaming, música]
+
+      - name: Streaming
+        items:
+          - title: Netflix
+            url: https://netflix.com
+            tags: [filmes, séries]
+          - title: Prime Video
+            url: https://primevideo.com
+            tags: [filmes, séries]
+          - title: Disney+
+            url: https://disneyplus.com
+            tags: [filmes, séries]
+
+  - name: Tecnologia
+    lists:
+      - name: Desenvolvimento
+        items:
+          - title: GitHub
+            url: https://github.com
+            tags: [código, versionamento]
+          - title: Stack Overflow
+            url: https://stackoverflow.com
+            tags: [ajuda, programação]
+
+      - name: Cloud
+        items:
+          - title: AWS
+            url: https://aws.amazon.com
+            tags: [cloud, servidores]
+          - title: Google Cloud
+            url: https://cloud.google.com
+            tags: [cloud, ia]
+
+  - name: Entretenimento
+    lists:
+      - name: Boardgames
+        items:
+          - title: Boardgame Arena
+            url: https://en.boardgamearena.com
+            tags: [online, boardgame]
+          - title: Catan
+            url: https://catanuniverse.com/en/game/
+            tags: [multiplayer, boardgame]
+          - title: Ludopedia
+            url: https://ludopedia.com.br/
+            tags: [boardgames]
+
+      - name: RPG
+        items:
+          - title: Donjon
+            url: https://donjon.bin.sh/
+            tags: [dnd, generator]
+          - title: Kassoon
+            url: https://www.kassoon.com/dnd/
+            tags: [dnd]
+          - title: Roll 20
+            url: https://app.roll20.net
+            tags: [rpg, web player]
+          - title: Watabou Tools
+            url: https://watabou.itch.io
+            tags: [rpg, generator]
+
+  - name: Ferramentas e Utilitários
+    lists:
+      - name: Design & Arte
+        items:
+          - title: Carbon
+            url: https://carbon.now.sh/
+            tags: [code, design]
+          - title: Piskel
+            url: https://www.piskelapp.com/
+            tags: [pixel art]
+          - title: Pixlr
+            url: https://pixlr.com/br/suite/
+            tags: [photo, editor, design]
+
+      - name: Produtividade
+        items:
+          - title: Diagrams
+            url: https://app.diagrams.net
+            tags: [flowchart, UML]
+          - title: PrepostSEO
+            url: https://www.prepostseo.com/
+            tags: [multi-tool]
+          - title: Sci-hub
+            url: https://sci-hub.se
+            tags: [research]
+
+      - name: PDF & Documentos
+        items:
+          - title: Bookletfy
+            url: https://wieke.gitlab.io/bookletify/
+            tags: [PDF, booklet]
+          - title: I Love PDF
+            url: https://www.ilovepdf.com
+            tags: [PDF]
+
+  - name: Jogos
+    lists:
+      - name: PC & Consoles
+        items:
+          - title: Epic Games
+            url: https://store.epicgames.com
+            tags: [games]
+          - title: GOG
+            url: https://www.gog.com/
+            tags: [games]
+          - title: Steam
+            url: https://store.steampowered.com
+            tags: [games]
+          - title: Xbox
+            url: https://www.xbox.com
+            tags: [multiplayer, online]
+
+      - name: Multiplayer Online
+        items:
+          - title: Codenames
+            url: https://codenames.game/
+            tags: [guessing, multiplayer]
+          - title: Geotastic
+            url: https://geotastic.net
+            tags: [trivia, geo]
+          - title: Krunker
+            url: https://krunker.io/
+            tags: [fps, multiplayer]
+          - title: Salem
+            url: https://www.blankmediagames.com/
+            tags: [guessing]
+          - title: Wikigame
+            url: https://www.thewikigame.com/
+            tags: [multiplayer, online]
+
+      - name: Indies & Diversos
+        items:
+          - title: Dawnville
+            url: https://sorensaket.itch.io/dawnville
+            tags: [tower-defense, idle]
+          - title: Itch.io
+            url: https://itch.io/my-collections
+            tags: []
+          - title: Tanuki Sunset
+            url: https://squidsquadgames.itch.io/tanuki-sunset
+            tags: [chill, synthwave]
