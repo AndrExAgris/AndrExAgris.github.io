@@ -115,8 +115,6 @@ body {
     font-weight: 400;
 }
 
-/* bookmarks */
-
 .container_main_bookmarks {
     max-width: 1200px;
     padding-top: 2%;
@@ -242,9 +240,6 @@ body {
     color: var(--color-primary);
 }
 
-
-
-/* media queries */
 
 @media (max-width: 1200px) {
     .header {
