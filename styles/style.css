@@ -89,7 +89,7 @@ body {
 .section_1_link_button {
     flex: 1 1 200px;
     border: 2px solid var(--color-accent-primary);
-    color: var(--color-accent-primary);
+    color: var(--color-primary);
     width: 50%;
     text-align: center;
     border-radius: 8px;
@@ -102,6 +102,7 @@ body {
 
 .section_1_link_button:hover {
     transform: translateX(2px);
+    color: var(--color-accent-primary);
     box-shadow: 4px 4px 6px var(--color-secondary);
 }
 
@@ -240,28 +241,55 @@ body {
     color: var(--color-primary);
 }
 
-
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
     .header {
-        padding: 10%;
-    }
-
-    .navigation_box {
-        justify-content: center;
-    }
+        padding: 2% 5% 0 5%;
+      }
+    
+      .navigation_box {
+        flex-direction: column; /* paia, tenho que melhorar */
+        gap: 20px;
+      }
 
     .container_main {
         flex-direction: column;
         align-items: center;
-        padding: 5%;
+        padding: 8% 5%;
+        gap: 40px;
     }
 
     .section_1 {
-        width: auto;
+        width: 100%;
+        gap: 20px;
     }
 
     .section_1_image {
-        width: auto;
+        width: 100%;
+        margin: 0 auto;
     }
-}
 
+    .section_1_title {
+        font-size: 1.75rem;
+      }
+      .section_1_subtitle,
+      .section_1_text {
+        font-size: 1.25rem;
+      }
+
+      
+      .section_1_link_button {
+        width: 100%;
+        font-size: 1.25rem;
+        padding: 15px 0;
+      }
+      .section_2_controls {
+        flex-direction: column;
+        padding: 5%;
+        gap: 10px;
+      }
+      .section_2_search_box,
+      .section_2_category_dropdown {
+        width: 100%;
+        min-width: unset;
+      }
+}

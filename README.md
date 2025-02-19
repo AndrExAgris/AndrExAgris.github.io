@@ -22,6 +22,13 @@ O objetivo deste projeto é desenvolver um site com as seguintes páginas:
 
 Este é um projeto pessoal e estou aberto a sugestões. Se você tiver ideias, encontrar algum problema ou quiser contribuir de alguma forma, sinta-se à vontade para abrir uma issue, enviar um pull request ou me contatar (principalmente se for para melhorar a aparencia da pagina, não sou um bom designer).
 
+## Créditos
+
+Este projeto utiliza recursos das seguintes fontes:
+
+- [Iconduck](https://iconduck.com/): Ícones gratuitos e de código aberto.
+- [Font Awesome](https://fontawesome.com/): Ícones escaláveis e vetoriais.
+
 ## Licença
 
 Este projeto está licenciado sob a [GPL3](LICENSE).
